@@ -3,7 +3,7 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import 'primereact/resources/primereact.css';
 import 'primeflex/primeflex.css';
-import 'primereact/resources/themes/vela-blue/theme.css';
+import 'primereact/resources/themes/saga-green/theme.css';
 import Routes from './routes';
 
 ReactDOM.render(

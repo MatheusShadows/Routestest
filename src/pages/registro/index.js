@@ -3,7 +3,7 @@ import { Card } from 'primereact/card';
 import { InputText } from 'primereact/inputtext';
 import { Password } from 'primereact/password';
 import 'primeflex/primeflex.css';
-import 'primereact/resources/themes/vela-blue/theme.css';
+import 'primereact/resources/themes/saga-green/theme.css';
 import React from 'react';
 import { useState } from 'react';
 
@@ -46,7 +46,7 @@ function Register (){
             className="p-button-raised"
             style={{marginTop:"2rem", width:"100%"}}
             label = 'Registrar'/><br/><br/>
-            <a href="/registro" style={{color:"azure"}}>Já possuo uma conta</a>   
+            <a href="/" style={{color:"green"}}>Já possuo uma conta</a>   
         </Card>  
        </section>
      </div>

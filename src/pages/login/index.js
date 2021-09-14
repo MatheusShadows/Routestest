@@ -3,7 +3,7 @@ import { Card } from 'primereact/card';
 import { InputText } from 'primereact/inputtext';
 import { Password } from 'primereact/password';
 import 'primeflex/primeflex.css';
-import 'primereact/resources/themes/vela-blue/theme.css';
+import 'primereact/resources/themes/saga-green/theme.css';
 import React from 'react';
 import { useState } from 'react';
 
@@ -36,8 +36,8 @@ export default function Login (){
             <Button
             className="p-button-raised"
             style={{marginTop:"2rem", width:"100%"}}
-            label = 'Submit'/><br/><br/>
-            <a href="/registro" style={{color:"azure"}}>Não tenho uma conta</a>   
+            label = 'Entrar'/><br/><br/>
+            <a href="/register" style={{color:"green"}}>Não tenho uma conta</a>   
         </Card>  
        </section>
      </div>
